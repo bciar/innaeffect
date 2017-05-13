@@ -1,0 +1,5 @@
+{foreach $list as $product}
+Product: {$product.name}
+Price: {$product.price}
+
+{/foreach}

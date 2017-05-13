@@ -1,0 +1,36 @@
+.ruqalert, .rubox, .rubox h1 {
+	margin: 0;
+}
+
+.ruqalert li {
+	list-style-type: circle;
+}
+
+.ruqop {
+	margin: 0 auto;
+	padding: 4px 9px 0;
+	text-align: center;
+}
+
+.ruqop form {
+	width: 100%;
+	padding: 10px;
+}
+
+.ruqop label {
+	clear: both;
+	font-weight: bold;
+	margin: 6px 0;
+	text-transform: uppercase;
+}
+
+.ruqop input {
+	padding: 6px 8px;
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.ruqop .submit {
+	margin-top: 10px;
+}

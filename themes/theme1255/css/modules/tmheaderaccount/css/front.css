@@ -1,0 +1,111 @@
+#header-login {
+  position: relative;
+  float: right;
+  margin-left: 5px; }
+  #header-login .header_user_info a {
+    font-size: 0;
+    line-height: 0;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #efefef;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+    overflow: hidden;
+    position: relative; }
+  #header-login .header_user_info.current a:after {
+    content: "\f007";
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-size: 17px;
+    line-height: 40px;
+    color: #333333;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  #header-login .header_user_info.current a:before {
+    background: #fa832a;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -100%;
+    left: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  #header-login .header_user_info.current:hover a, #header-login .header_user_info.current.active a {
+    color: #fff; }
+    #header-login .header_user_info.current:hover a:before, #header-login .header_user_info.current.active a:before {
+      top: 0; }
+    #header-login .header_user_info.current:hover a:after, #header-login .header_user_info.current.active a:after {
+      color: #fff;
+      -webkit-animation: moveFromTop .5s ease;
+      -moz-animation: moveFromTop .5s ease;
+      -ms-animation: moveFromTop .5s ease; }
+  #header-login .logout {
+    overflow: hidden;
+    margin-bottom: 0; }
+
+#header-login-content {
+  display: none;
+  width: 270px;
+  padding: 15px;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 13;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  color: #333; }
+  @media (max-width: 479px) {
+    #header-login-content {
+      width: 215px;
+      right: -15px; } }
+  #header-login-content label {
+    color: #333;
+    font-weight: normal; }
+  #header-login-content li {
+    margin: 0;
+    padding: 0; }
+    #header-login-content li ul {
+      margin: 0 0 10px 0; }
+      #header-login-content li ul li {
+        display: block;
+        border-top: 1px solid #e2e2e2;
+        line-height: 35px; }
+        #header-login-content li ul li:first-child {
+          border: none; }
+        #header-login-content li ul li a {
+          color: #333;
+          padding: 0 10px 0 10px;
+          display: block;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          #header-login-content li ul li a:hover {
+            background: #fa832a;
+            color: white; }
+          #header-login-content li ul li a i {
+            display: none; }
+
+#create_header_account_error {
+  padding: 8px; }

@@ -1,0 +1,142 @@
+@import "../../_theme_variables";
+
+.permanent-links{
+	position:relative;
+	margin-left:5px;
+	float:right}
+
+
+   .btn-menu{		  
+    font-size: 12px;
+	line-height:40px;
+    font-weight: normal;
+    margin-bottom: 0;
+	color:$color2;
+    position: relative;
+	@include transition(all 0.3s ease);		
+	text-transform:capitalize;
+	width: 40px;
+	height: 40px;
+	@include border-radius(50%);
+	background: $color3;
+	text-align:center;
+	cursor:pointer;
+	overflow:hidden;
+	z-index:1;
+	&:before{font-weight:normal;position:relative;display:block;}
+
+	  &:after{
+		background: $color1;
+		top:0;
+		left:0;
+		width:40px;
+		height:40px;
+		content:"";
+		position:absolute;
+		z-index:-1;
+		top:-100%;left:0;
+		@include transition(all 0.3s ease);	
+		@include border-radius(50%);
+		}
+
+
+
+	 &:hover,
+	 &.active{
+	  &:after{
+       top:0
+		  
+		  }
+		  
+		&:before{
+	 color:#fff;
+    -webkit-animation: moveFromTop .5s ease;
+    -moz-animation: moveFromTop .5s ease;
+    -ms-animation: moveFromTop .5s ease;
+		} 	  
+		  
+	 
+	 }
+	  &.active{
+	  &:before{content:"\f00d ";color:#fff}
+	  
+	  }
+	 }	  
+
+
+
+/* block top links */
+ul#header_links {
+	list-style-type: none;
+	overflow:hidden;
+	display:none;
+	position:absolute;
+	top:64px;	
+	right:0;
+	width:150px;
+	background:#fff;
+	padding:10px;
+	z-index:3;
+	border:$main_border;
+	li {
+		text-transform:capitalize;	
+		padding: 0 0 5px 10px;
+		
+		a {
+			text-decoration: none;
+			font-size:12px;
+			line-height:18px;
+			color:$color2;
+			text-transform:uppercase;
+			@include transition(all 0.3s ease);		
+			position:relative;
+			&:before{
+				color:$color1;
+				font-family:$font-icon;
+				
+				margin-right:10px;	
+				@include transition(all 0.3s ease);		
+				font-weight:normal;	
+					 @media (max-width: $screen-sm-max) { //  max 991px
+							margin-right:5px;	
+					}	
+				}
+			
+			
+			&:hover, &.active {
+				color:$color1
+			}
+		}
+		
+		 &#header_link_home a:before{content:"\f015"}
+		&#header_link_blog a:before{content:"\f044"}
+		&#header_link_contact a:before{content:"\f0e0"}
+		&#header_link_sitemap a:before{content:"\f0e8 "}
+		&#header_link_wishlist a:before{content:"\f004"}
+		
+		
+	}
+}
+
+
+
+
+/*block permanent links right and left columns*/
+#permanent_links div {border-bottom: 1px dotted #eee}
+#permanent_links div a {
+	display: block;
+	padding: 7px 11px 5px 22px;
+	color: #333;
+	background:url(img/arrow_right_2.png) no-repeat 10px 10px;
+}
+
+/* block footer links */
+ul#footer_links{
+	clear:both;
+	text-align: center;
+	padding-bottom:6px
+}
+ul#footer_links li{
+	display: inline;
+	padding:0 10px
+}

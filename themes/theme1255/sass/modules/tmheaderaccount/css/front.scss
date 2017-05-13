@@ -1,0 +1,131 @@
+@import "../../../_theme_variables";
+
+#header-login {
+	position:relative;
+	float:right;
+	margin-left:5px;	
+	.header_user_info {
+		a {
+       font-size:0;
+	   line-height:0;
+		width: 40px;
+		height: 40px;
+		@include border-radius( 50%);
+		background: $color3;
+		display:block;
+		text-align: center;
+		cursor: pointer;
+		@include transition(all 0.3s ease);
+		z-index:1;
+		overflow:hidden;
+		position:relative;
+		
+
+	}
+		&.current {
+			a {			
+					&:after {
+					content: "\f007";
+					font-family: $font-icon;
+					display: inline-block;
+					font-size: 17px;
+					line-height: 40px;
+					color: $color2;
+					@include transition(all 0.3s ease);	
+						}
+						
+			   &:before{
+				background: $color1;
+				top:0;
+				left:0;
+				width:40px;
+				height:40px;
+				content:"";
+				position:absolute;
+				z-index:-1;
+				top:-100%;left:0;
+				@include transition(all 0.3s ease);	
+				@include border-radius(50%);
+				}	
+						
+						
+			}
+		&:hover a, &.active a{		
+		color:#fff; 	                 
+		 
+		 &:before{
+             top:0
+		  }	
+		  
+		  
+		   &:after
+		 		{
+        color:#fff;
+    -webkit-animation: moveFromTop .5s ease;
+    -moz-animation: moveFromTop .5s ease;
+    -ms-animation: moveFromTop .5s ease;
+			  }  
+		  
+		
+		}
+		}
+	}
+	.logout {
+		overflow:hidden;
+		margin-bottom:0;
+	}	
+}
+
+#header-login-content {
+	display:none;
+	width:270px;
+	padding:15px;
+	margin:0;
+	position:absolute;
+	right:0;
+	top:64px;
+	z-index:3;
+	background:#fff;
+	border:$main_border;
+	color:#333;
+	     @media (max-width: $screen-xs - 1) { // max 479px
+				width:215px;
+				right:-15px;
+         }	
+	
+	
+	
+	
+	label {
+		color:#333;	
+		font-weight:normal;
+	}
+	li {
+		margin:0;
+		padding:0;
+		ul {
+			margin:0 0 10px 0;
+			li {
+				display:block;
+				border-top:1px solid $base-border-color;
+				line-height:35px;
+				&:first-child {border:none;}
+				a {
+				
+					color:#333;
+					padding:0 10px 0 10px;
+					display:block;
+					@include transition(all 0.3s ease);
+					&:hover {
+						background:$color1;
+						color:#fff
+					}
+					i {display:none;}
+				}
+			}
+		}
+	}
+}
+#create_header_account_error {
+	padding:8px;	
+}

@@ -1,0 +1,253 @@
+@import "../../../_theme_variables";
+
+/* Top hook CSS */
+#htmlcontent_top {	
+
+	@media (max-width: $screen-xs-max) { // max 767px
+		width: 100%;
+		max-width: 100%;
+	}	
+	
+	ul {
+		margin-bottom:0;
+			@media (max-width: $screen-md-max) { //  max 1199px
+				text-align:center;	
+		    }	
+		
+		@media (max-width: $screen-xs-max) { // max 767px
+
+		}
+		li {
+		
+			margin-bottom: 30px;	
+			 @media (max-width: $screen-sm-max) { //  max 991px
+				width:100%			
+			}
+			
+					
+			a{
+			display:block;position:relative;
+			background:$color1;
+			@include transition(all 0.3s ease);
+			overflow:hidden;
+			z-index:1;
+			text-align:left;
+			
+			
+			&:before{
+				height:100%;
+				width:100%;
+				left:-100%;
+				top:0;
+				background:$color2;
+				content:"";
+				z-index:-1;
+				position:absolute;
+				@include transition(all 0.3s ease);
+			
+				}
+			
+			   &:hover{
+	              .item-html{	
+						 -webkit-animation: moveFromLeft 400ms ease;
+						-moz-animation: moveFromLeft 400ms ease;
+						-ms-animation: moveFromLeft 400ms ease;}
+	
+				   img{@include scale(1.1)}
+				   &:before{left:0;}
+				   
+				   }
+			
+			}
+			
+			h3{
+				color: #fff;
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 1em;
+				text-transform: capitalize;
+				margin-bottom: 10px;	
+				
+		    @media (max-width: 1950px) { //  max 1950px
+			font-size: 20px;	
+			}
+		@media (max-width: $screen-md-max) { //  max 1199px
+		font-size: 24px;
+	     }		
+						
+							
+			}
+			p{color:#fff;margin-bottom:14px;
+	
+			
+
+	@media (min-width: $screen-md) and (max-width: $screen-md-max) { // min 992px max 1199px
+					display:none
+	        }
+
+
+        @media (max-width: $screen-xs - 1) { // max 479px
+        		display:none
+         }
+
+			
+			}
+			
+			span{
+			text-transform: uppercase;
+			font-size: 14px;
+			line-height:1em;
+			padding: 0px;
+			display: inline-block;
+			position: relative;
+			text-decoration:underline;
+			color:#fff;			
+			
+			@media (max-width: $screen-md-max) { //  max 1199px
+	
+			}			
+
+}
+
+         .item-html{
+			 position:absolute;
+			 top:11%;
+			 left:11%;
+			 width:50%;	 
+			 
+
+			 		 
+			 }
+
+	
+			img {
+				max-width: 100%;
+				height: auto;
+				@include transition(all 0.3s ease);
+            	@include scale(1);
+			  	@media (max-width: $screen-md-max) { //  max 1199px
+				float:right;	
+	
+		    }
+			}
+		}
+	}
+}
+
+/* Home hook CSS */
+#htmlcontent_home {	
+
+border-top:$main_border;
+padding-top:29px;
+
+
+	@media (max-width: $screen-xs-max) { // max 767px
+		width: 100%;
+		max-width: 100%;
+
+	}
+	
+	
+	ul {margin-bottom:0;	
+		
+		li {		
+			margin-bottom: 15px;
+			
+				
+        @media (max-width: $screen-xs-max) { // max 767px
+		float:none;width:100%
+		
+		}
+			
+			
+			div{overflow:hidden;}
+						
+			a{
+			display:block;position:relative;
+			@include transition(all 0.3s ease);
+			overflow:hidden;
+			z-index:1;
+			
+			
+			   &:hover{		 
+				 i{background:$color1;
+				 border-color:$color1;
+					 color:#fff;
+					 &:before{
+					 
+			 -webkit-transform: rotateY(360deg);
+			   -moz-transform: rotateY(360deg);
+			   -o-transform: rotateY(360deg);
+			  -ms-transform: rotateY(360deg);
+			   transform: rotateY(360deg);
+
+				 }
+					 } 
+				   
+				   }
+			
+			}
+			
+			 .item-html{
+			 overflow:hidden;
+			 }
+			
+			
+			
+			i{float:left;	
+				width:84px;
+				height:84px;
+				border:$main_border;
+				@include border-radius(50%);
+				text-align:center;
+				color:$color1;
+				background:#fff;
+				font-size:27px;
+				line-height:84px;
+				margin-right:20px;	
+				@include transition(all 0.6s ease);
+				position:relative;	
+				&:before{
+				position:relative;		
+				display:block;
+				 @include transition(all 0.6s ease);
+				
+				}
+							
+				}
+					
+			
+			h4{
+				color:$color2;
+				font-weight: bold;
+				font-size: 21px;
+				line-height: 1em;
+				text-transform: capitalize;
+				margin-bottom: 10px;	
+				span{color:$color1}			
+				}
+		}
+	}
+}
+
+
+/* Left hook CSS */
+#htmlcontent_left {
+}
+
+/* Right hook CSS */
+#htmlcontent_right {
+}
+
+/* Footer hook CSS */
+
+.footer-container #footer #htmlcontent_footer  h4::after{display:none}
+
+#htmlcontent_footer {
+	
+ul{margin:0;
+  li{width:100%;padding:0;float:none}
+
+}	
+}
+	

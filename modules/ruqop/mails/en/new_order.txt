@@ -1,0 +1,8 @@
+[{shop_url}] 
+
+NEW ORDER
+ORDER PLACED: {date}
+PHONE: {phone}
+
+==============
+{products_txt}

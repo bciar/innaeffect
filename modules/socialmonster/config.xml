@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>socialmonster</name>
+	<displayName><![CDATA[Social Share buttons]]></displayName>
+	<version><![CDATA[1.0.8]]></version>
+	<description><![CDATA[Increase your visibility by allowing your customers to easily share your products with their friends and get free traffic to your shop.]]></description>
+	<author><![CDATA[Pominchuk Vasyl]]></author>
+	<tab><![CDATA[social_networks]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

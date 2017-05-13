@@ -1,0 +1,122 @@
+@import "../../../_theme_variables";
+
+$color1:     #dec204;   
+$color2:     #1e1a02;  
+
+#header{
+
+   .shopping_cart > a:first-child span.ajax_cart_quantity:before,
+   .btn-menu:after ,
+   #header-login .header_user_info.current a:before,
+   #currencies-block-top div.current:before,
+   #languages-block-top div.current:before {background:$color1}
+ .cart_block dl a:hover{color:$color1}
+ 
+ ul#header_links li a::before,
+ ul#header_links li a:hover, ul#header_links li a.active {color:$color1}
+ #header-login-content li ul li a:hover{background:$color1}
+ #currencies-block-top ul li.selected,
+ #currencies-block-top ul li:hover a,
+ #currencies-block-top ul li.selected a,
+ #languages-block-top ul li.selected,
+ #languages-block-top ul li:hover a,
+ #languages-block-top ul li.selected a,
+ #languages-block-top ul li.selected span{color:$color1} 
+ 
+ 
+ 
+ .row-top{background:$color2} 
+ .top_menu{
+	 
+    .menu-title{background:$color1;&:hover{background:#fff}}
+	 .menu_badge {background:$color1}
+	  
+	  > ul > li:hover > a,
+	  > ul > li.sfHover > a, 
+	  > ul > li.sfHoverForce > a, 
+	  > ul > li > a:hover{color:$color1}	
+	  .is-megamenu .megamenu-row{
+			  h3, 
+			 .custom-link a,
+			 .list-catigory-menu li a:hover, 
+			 .list-brands-menu li a:hover,
+			 .list-popular-services em{color:$color1} 
+	  }
+	
+	.is-megamenu .megamenu-row .custom-link a:hover{color:#333}
+
+ } 
+}
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover::before {color:$color1}
+.price,
+.price.product-price,
+.product-name a:hover,
+a.product-name:hover{color:$color1}
+
+.price-percent-reduction {background:$color1}
+.btn.btn-default{background:$color1}
+#our_price_display {
+	color:$color1;}
+#htmlcontent_top ul li a{background:$color1; 
+
+&:before{background:$color2}
+}
+
+#home-page-tabs > li.active a, 
+#home-page-tabs > li a:hover{color:$color1}
+
+.sale-label{background:$color1}
+.new-label{background:$color2}
+
+#center_column .tab-content .bx-controls-direction a:hover::before ,
+.home-column .category-block .bx-controls-direction a:hover::before {color:$color1}
+
+
+ul.product_list .button-container .btn.ajax_add_to_cart_button::before, 
+ul.product_list .button-container .btn.ajax_add_to_cart_product_button::before,
+ul.product_list .button-container .wishlist a::before,
+ ul.product_list .button-container .compare a:before {background:$color1}
+ div.star.star_on::after,
+ .block .title_block a:hover, .block h4 a:hover {color:$color1}
+ 
+.home-column  #homepage-blog{ 
+	 .blog-image a:before {border-color:$color1}
+	 .date-added{background:$color1}
+	  .bx-controls-direction a:hover::before {color:$color1}
+	 
+ }
+ 
+ 
+ #htmlcontent_home ul li a:hover i{background:$color1;border-color:$color1}
+  #htmlcontent_home ul li a i,
+  #htmlcontent_home ul li h4 span,
+  .footer-container #footer ul li a,
+  .footer-container #footer #block_contact_infos > div ul li i,
+  .footer-container #footer #block_contact_infos > div ul li > span a:hover,
+  .footer-container #footer h4 a:hover,
+  .footer-container #footer a:hover{color:$color1}
+  
+  .footer-container #footer #social_block ul li a::after {background:$color1}
+  #habla_window_div #habla_topbar_div{background:$color1 !important}
+  
+  #layer_cart .layer_cart_product h2{color:$color1}
+  
+  
+  .newsletter-overlay {	  
+	  #newsletter_popup{border-color:$color1}
+	  .tmnewsletter-header h4{color:$color1}
+	 .icon.tmnewsletter-close{
+		 &:before{color:$color1;}
+		 &:hover{background:$color1;
+		   &:before{color:#fff}
+		 }
+		 
+		 
+		 } 
+	  
+	  
+	  }
+  
+ nav #layer_cart .layer_cart_product h2{color:$color1}
+  
+  

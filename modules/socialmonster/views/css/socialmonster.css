@@ -1,0 +1,193 @@
+#shareMonsterButtonPopupWr, #shareMonsterButtonPopupWr * {
+	-webkit-text-shadow:none !important; 
+	text-shadow:none !important;
+}
+
+#shareMonsterButtonPopupTable img {
+	display:inline; 
+	width:auto; 
+	height:auto; 
+	background:none; 
+	float:none;
+}
+
+#shareMonsterButtonPopupTable * {
+	margin:0; 
+	padding:0; 
+	font-family:Tahoma,Arial,Sans-Serif,Verdana; 
+	font-size:medium; 
+	line-height:normal;
+}
+#shareMonsterButtonPopupTable a {
+	text-decoration:none; 
+	background:none; 
+	height:auto !important;
+}
+
+#shareMonsterButtonBottomPopupHtml a {
+	font-size:13px; 
+	color:#6F6F6F; 
+	text-decoration:underline;
+}
+	
+.shareMonsterButtonRecBox, .shareMonsterButtonRecBox div, 
+.shareMonsterButtonRecBox span, .shareMonsterButtonRecBox a {
+	font-size:12px !important; 
+	color:#6F6F6F !important;
+}
+	
+.shareMonsterButtonRecBox a {
+	text-decoration:underline !important;
+}
+	
+.shareMonsterButtonInv {
+	position:fixed; top:-300px;
+}
+
+#shareMonsterButtonPopupContent::-webkit-scrollbar {
+	width: 4px;
+}
+	
+#shareMonsterButtonPopupContent::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px #e9eaeb; 
+	-webkit-border-radius: 10px; 
+	border-radius: 10px;
+}
+	
+#shareMonsterButtonPopupContent::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px; 
+	border-radius: 10px; 
+	background: #6a6a6a; 
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.shareMonsterButtonItem {
+	display: inline-block;
+	margin: 2px;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	verticalAlign: bottom; 
+	border: none;
+}
+
+.shareMonsterButtonPopupImage {
+	border:none; 
+	vertical-align:baseline; 
+	margin:0; 
+	display:inline-block; 
+	width:32px; 
+	height:32px;
+}
+
+.shareMonsterButtontwLink { background: url('../img/tw.png'); }
+.shareMonsterButtonfbLink { background: url('../img/fb.png'); }
+.shareMonsterButtongpLink { background: url('../img/gp.png'); }
+.shareMonsterButtonplusLink { background: url('../img/plus.png'); }
+.shareMonsterButtongoLink { background: url('../img/go.png'); }
+.shareMonsterButtonliLink { background: url('../img/li.png'); }
+.shareMonsterButtontuLink { background: url('../img/tu.png'); }
+.shareMonsterButtondiLink { background: url('../img/di.png'); }
+.shareMonsterButtonreLink { background: url('../img/re.png'); }
+.shareMonsterButtonvkLink { background: url('../img/vk.png'); }
+.shareMonsterButtonmrLink { background: url('../img/mr.png'); }
+.shareMonsterButtondeLink { background: url('../img/de.png'); }
+.shareMonsterButtongmLink { background: url('../img/gm.png'); }
+.shareMonsterButtonblLink { background: url('../img/bl.png'); }
+.shareMonsterButtonljLink { background: url('../img/lj.png'); }
+.shareMonsterButtonbaLink { background: url('../img/ba.png'); }
+.shareMonsterButtonamLink { background: url('../img/am.png'); }
+.shareMonsterButtonbiLink { background: url('../img/bi.png'); }
+.shareMonsterButtonwhLink { background: url('../img/wh.png'); }
+.shareMonsterButtongtLink { background: url('../img/gt.png'); }
+.shareMonsterButtonw3Link { background: url('../img/w3.png'); }
+.shareMonsterButtonstLink { background: url('../img/st.png'); }
+.shareMonsterButtonwaLink { background: url('../img/wa.png'); }
+.shareMonsterButtonyhLink { background: url('../img/yh.png'); }
+.shareMonsterButtonvbLink { background: url('../img/vb.png'); }
+.shareMonsterButtonsmsLink { background: url('../img/sms.png'); }
+.shareMonsterButtonokLink { background: url('../img/ok.png'); }
+
+#shareMonsterButtonPopupCloseBtn {
+	width:10px; 
+	height:10px; 
+	top:12px; 
+	right:11px; 
+	cursor:pointer; 
+	position:absolute; 
+	background:url(../img/close.png);
+}
+
+input#shareMonsterButtonPopupSearch {
+	text-align:left; 
+	width:95%; 
+	max-width:430px; 
+	height:auto; 
+	padding:8px 4px 8px 10px; 
+	background:url(../img/zoom.png) 98% 8px no-repeat; 
+	border:1px solid #c0c0c0; 
+	font-size:18px; 
+	line-height:22px; 
+	box-sizing:content-box; 
+	-moz-box-sizing:content-box;
+}
+
+#shareMonsterButtonPopup {
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #000;
+    box-sizing: content-box;
+    font-family: Tahoma,Arial,Verdana;
+    margin: 0 auto;
+    padding: 0 25px 20px;
+    position: relative;
+    text-align: left;
+    max-width: 445px;
+    min-width: 225px;
+    width: 80%;
+}
+
+#shareMonsterButtonPopupContent {
+	height: 325px;
+    max-height: 325px;
+    overflow-y: scroll;
+    position: relative;
+    width: 99%;
+}
+
+#shareMonsterButtonPopupTable {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	direction: ltr;
+	z-index: 999999999;
+	background: none;
+}
+
+#shareMonsterButtonPopupCell {
+	background-color: rgba(0, 0, 0, 0.9);
+    height: 342px;
+    vertical-align: middle;
+}
+
+#shareMonsterButtonPopupContentInner a {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-sizing: content-box;
+    display: inline-block;
+    margin: 0;
+    padding: 7px 0 5px 14px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: bottom;
+    width: 190px;
+}
+
+@media (min-width: 810px) {
+	#shareMonsterButtonPopupContentInner a.SM_hideOnDesktop {
+		display: none;
+	}
+}

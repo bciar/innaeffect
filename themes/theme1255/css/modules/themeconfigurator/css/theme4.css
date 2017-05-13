@@ -1,0 +1,132 @@
+#header .shopping_cart > a:first-child span.ajax_cart_quantity:before,
+#header .btn-menu:after,
+#header #header-login .header_user_info.current a:before,
+#header #currencies-block-top div.current:before,
+#header #languages-block-top div.current:before {
+  background: #1a93c4; }
+#header .cart_block dl a:hover {
+  color: #1a93c4; }
+#header ul#header_links li a::before,
+#header ul#header_links li a:hover, #header ul#header_links li a.active {
+  color: #1a93c4; }
+#header #header-login-content li ul li a:hover {
+  background: #1a93c4; }
+#header #currencies-block-top ul li.selected,
+#header #currencies-block-top ul li:hover a,
+#header #currencies-block-top ul li.selected a,
+#header #languages-block-top ul li.selected,
+#header #languages-block-top ul li:hover a,
+#header #languages-block-top ul li.selected a,
+#header #languages-block-top ul li.selected span {
+  color: #1a93c4; }
+#header .row-top {
+  background: #062835; }
+#header .top_menu .menu-title {
+  background: #1a93c4; }
+  #header .top_menu .menu-title:hover {
+    background: #fff; }
+#header .top_menu .menu_badge {
+  background: #1a93c4; }
+#header .top_menu > ul > li:hover > a,
+#header .top_menu > ul > li.sfHover > a,
+#header .top_menu > ul > li.sfHoverForce > a,
+#header .top_menu > ul > li > a:hover {
+  color: #1a93c4; }
+#header .top_menu .is-megamenu .megamenu-row h3,
+#header .top_menu .is-megamenu .megamenu-row .custom-link a,
+#header .top_menu .is-megamenu .megamenu-row .list-catigory-menu li a:hover,
+#header .top_menu .is-megamenu .megamenu-row .list-brands-menu li a:hover,
+#header .top_menu .is-megamenu .megamenu-row .list-popular-services em {
+  color: #1a93c4; }
+#header .top_menu .is-megamenu .megamenu-row .custom-link a:hover {
+  color: #333; }
+
+#homepage-slider .bx-wrapper .bx-controls-direction a:hover::before {
+  color: #1a93c4; }
+
+.price,
+.price.product-price,
+.product-name a:hover,
+a.product-name:hover {
+  color: #1a93c4; }
+
+.price-percent-reduction {
+  background: #1a93c4; }
+
+.btn.btn-default {
+  background: #1a93c4; }
+
+#htmlcontent_top ul li a {
+  background: #1a93c4; }
+  #htmlcontent_top ul li a:before {
+    background: #062835; }
+
+#our_price_display {
+  color: #1a93c4; }
+
+#home-page-tabs > li.active a,
+#home-page-tabs > li a:hover {
+  color: #1a93c4; }
+
+.sale-label {
+  background: #e9cd10; }
+
+.new-label {
+  background: #062835; }
+
+#center_column .tab-content .bx-controls-direction a:hover::before,
+.home-column .category-block .bx-controls-direction a:hover::before {
+  color: #1a93c4; }
+
+ul.product_list .button-container .btn.ajax_add_to_cart_button::before,
+ul.product_list .button-container .btn.ajax_add_to_cart_product_button::before,
+ul.product_list .button-container .wishlist a::before,
+ul.product_list .button-container .compare a:before {
+  background: #1a93c4; }
+
+div.star.star_on::after,
+.block .title_block a:hover, .block h4 a:hover {
+  color: #1a93c4; }
+
+.home-column #homepage-blog .blog-image a:before {
+  border-color: #1a93c4; }
+.home-column #homepage-blog .date-added {
+  background: #1a93c4; }
+.home-column #homepage-blog .bx-controls-direction a:hover::before {
+  color: #1a93c4; }
+
+#htmlcontent_home ul li a:hover i {
+  background: #1a93c4;
+  border-color: #1a93c4; }
+
+#htmlcontent_home ul li a i,
+#htmlcontent_home ul li h4 span,
+.footer-container #footer ul li a,
+.footer-container #footer #block_contact_infos > div ul li i,
+.footer-container #footer #block_contact_infos > div ul li > span a:hover,
+.footer-container #footer h4 a:hover,
+.footer-container #footer a:hover {
+  color: #1a93c4; }
+
+.footer-container #footer #social_block ul li a::after {
+  background: #1a93c4; }
+
+#habla_window_div #habla_topbar_div {
+  background: #1a93c4 !important; }
+
+#layer_cart .layer_cart_product h2 {
+  color: #1a93c4; }
+
+.newsletter-overlay #newsletter_popup {
+  border-color: #1a93c4; }
+.newsletter-overlay .tmnewsletter-header h4 {
+  color: #1a93c4; }
+.newsletter-overlay .icon.tmnewsletter-close:before {
+  color: #1a93c4; }
+.newsletter-overlay .icon.tmnewsletter-close:hover {
+  background: #1a93c4; }
+  .newsletter-overlay .icon.tmnewsletter-close:hover:before {
+    color: #fff; }
+
+nav #layer_cart .layer_cart_product h2 {
+  color: #1a93c4; }

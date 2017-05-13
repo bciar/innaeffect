@@ -1,0 +1,20 @@
+*ERROR* 	2017/04/09 - 00:11:00: Unknown column 'tag' in 'where clause'<br /><br /><pre>SELECT * FROM ps_smart_blog_post p INNER JOIN 
+                ps_smart_blog_post_lang pl ON p.id_smart_blog_post=pl.id_smart_blog_post INNER JOIN 
+                ps_smart_blog_post_shop ps ON pl.id_smart_blog_post = ps.id_smart_blog_post 
+                WHERE pl.id_lang=1
+                AND p.active= 1 AND p.id_smart_blog_post = tag</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2017/04/09 - 00:42:36: Unknown column 'tag' in 'where clause'<br /><br /><pre>SELECT * FROM ps_smart_blog_post p INNER JOIN 
+                ps_smart_blog_post_lang pl ON p.id_smart_blog_post=pl.id_smart_blog_post INNER JOIN 
+                ps_smart_blog_post_shop ps ON pl.id_smart_blog_post = ps.id_smart_blog_post 
+                WHERE pl.id_lang=1
+                AND p.active= 1 AND p.id_smart_blog_post = tag</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2017/04/09 - 22:59:37: Unknown column 'tag' in 'where clause'<br /><br /><pre>SELECT * FROM ps_smart_blog_post p INNER JOIN 
+                ps_smart_blog_post_lang pl ON p.id_smart_blog_post=pl.id_smart_blog_post INNER JOIN 
+                ps_smart_blog_post_shop ps ON pl.id_smart_blog_post = ps.id_smart_blog_post 
+                WHERE pl.id_lang=3
+                AND p.active= 1 AND p.id_smart_blog_post = tag</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2017/04/09 - 22:59:48: Unknown column 'tag' in 'where clause'<br /><br /><pre>SELECT * FROM ps_smart_blog_post p INNER JOIN 
+                ps_smart_blog_post_lang pl ON p.id_smart_blog_post=pl.id_smart_blog_post INNER JOIN 
+                ps_smart_blog_post_shop ps ON pl.id_smart_blog_post = ps.id_smart_blog_post 
+                WHERE pl.id_lang=3
+                AND p.active= 1 AND p.id_smart_blog_post = tag</pre> at line 791 in file classes/db/Db.php

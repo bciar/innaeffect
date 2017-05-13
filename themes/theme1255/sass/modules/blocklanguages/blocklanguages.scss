@@ -1,0 +1,116 @@
+@import "../../_theme_variables";
+
+#languages-block-top {
+	float: right;	
+	position: relative;  
+    margin-left:0;
+	margin-left:5px;
+		
+   span.firstWord {
+    display: none;
+  }
+  
+    div.current {			
+    font-size: 13px;
+	line-height:40px;
+    font-weight: normal;
+    margin-bottom: 0;
+	color:$color2;
+    position: relative;
+	@include transition(all 0.3s ease);		
+	text-transform:capitalize;
+	width: 40px;
+	height: 40px;
+	@include border-radius(50%);
+	background: $color3;
+	text-align:center;
+	cursor:pointer;
+	z-index:1;
+	overflow:hidden;
+	strong{display:none}
+		span{
+		font-weight:normal;
+		position:relative;
+		display:inline-block;	
+		@include transition(all 0.3s ease);}	
+	cursor:pointer;
+	      &:after {
+			content: "\f107";
+			font-family: $font-icon;		
+			font-weight:normal;
+			color: $color2;
+			font-size: 13px;
+			line-height:40px;
+			display:inline-block;
+			@include transition(all 0.3s ease);	
+		}
+		
+	  &:before{
+		background: $color1;
+		top:0;
+		left:0;
+		width:40px;
+		height:40px;
+		content:"";
+		position:absolute;
+		z-index:-1;
+		top:-100%;left:0;
+		@include transition(all 0.3s ease);
+		@include border-radius(50%);
+		}
+		
+		
+		
+		&:hover,
+		 &.active {		
+		color:#fff;			           
+		
+		&:before{
+            top:0;
+		  }	
+          &:after,
+		  span 		{
+			color:#fff;
+			-webkit-animation: moveFromTop .5s ease;
+			-moz-animation: moveFromTop .5s ease;
+			-ms-animation: moveFromTop .5s ease;
+			  }
+		}
+	&.active {			
+			&:after {
+		 content: "\f106";	
+			}
+		}
+ }
+    
+  ul {
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    width: 157px;
+ 	background:#fff;
+	border:$main_border;
+    z-index: 20;
+	
+    li {
+      color: #333;
+      line-height: 35px;
+      font-size: 13px;
+      a,
+      > span {
+        padding: 0 10px 0 12px;
+        display: block;
+        color: #333;
+		@include transition(all 0.3s ease);
+
+      }
+      &.selected, &:hover a,   &.selected a,&.selected span {
+       color:$color1
+      }
+    }
+  }
+	
+}
+
+
